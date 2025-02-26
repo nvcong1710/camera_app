@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application android:appCategory="audio">
+
+        <!-- Main Activity with Intent Filter for Launcher -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.MyApplication.NoActionBar"
+            tools:targetApi="24">
+
+            <!-- Launcher Intent Filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Google Car App Metadata -->
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc" />
+
+        <!-- Music Service for Media Browser -->
+        <service
+            android:name=".MyMusicService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+
+    </application>
+    <uses-permission android:name="android.permission.CAMERA"
+        tools:ignore="ManifestOrder" />
+</manifest>
