@@ -9,6 +9,8 @@
         android:name="android.permission.CAMERA"
         tools:ignore="ManifestOrder" />
 
+    <uses-feature android:name="android.hardware.camera.any" />
+
     <application android:appCategory="audio" >
 
         <!-- Main Activity with Intent Filter for Launcher -->
@@ -32,15 +34,6 @@
         <meta-data
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
-
-        <!-- Music Service for Media Browser -->
-        <service
-            android:name="com.example.myapplication.shared.MyMusicService"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.media.browse.MediaBrowserService" />
-            </intent-filter>
-        </service>
     </application>
 
 </manifest>

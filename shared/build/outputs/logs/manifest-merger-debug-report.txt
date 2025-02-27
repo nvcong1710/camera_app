@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml
 	xmlns:tools
@@ -9,7 +9,7 @@ INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\mai
 	xmlns:android
 		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:5:5-37:19
+ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:5:5-28:19
 	android:appCategory
 		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:5:18-45
 activity#com.example.myapplication.shared.MainActivity
@@ -42,24 +42,16 @@ ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\A
 		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:26:13-56
 	android:name
 		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:25:13-66
-service#com.example.myapplication.shared.MyMusicService
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:29:9-35:19
-	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:31:13-36
-	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:30:13-43
-intent-filter#action:name:android.media.browse.MediaBrowserService
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:32:13-34:29
-action#android.media.browse.MediaBrowserService
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:33:17-83
-	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:33:25-80
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:38:5-39:40
+ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:29:5-30:40
 	tools:ignore
-		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:39:9-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:30:9-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:38:22-62
+		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:29:22-62
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:31:5-63
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml:31:19-61
 uses-sdk
 INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\AndroidStudioProjects\MyApplication3\shared\src\main\AndroidManifest.xml
